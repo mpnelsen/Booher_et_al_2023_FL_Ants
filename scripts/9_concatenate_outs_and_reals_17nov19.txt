@@ -1,0 +1,6 @@
+for f in nuSSU nuLSU AbdA COI LR Wg EF1aF1 EF1aF2 ArgK CAD Top1 Ubx
+do
+	cat /Users/matthewnelsen/Documents/papers_reviews/papers/ants_for_doug/17nov2019_1/Formicidae/"$f"/"$f"_Renamed_Parsed.fasta /Users/matthewnelsen/Documents/papers_reviews/papers/ants_for_doug/17nov2019_1/Formicidae/"$f"_OUTS_ONLY_Parsed_Renamed.fasta > /Users/matthewnelsen/Documents/papers_reviews/papers/ants_for_doug/17nov2019_1/Formicidae/"$f"/"$f"_Renamed_wouts_Parsed.fasta
+	cat //Users/matthewnelsen/Documents/papers_reviews/papers/ants_for_doug/17nov2019_1/Formicidae/"$f"/"$f"_Renamed_Parsed.fasta /Users/matthewnelsen/Documents/papers_reviews/papers/ants_for_doug/17nov2019_1/Formicidae/"$f"_OUTS_ONLY_Parsed_Renamed.fasta > /Users/matthewnelsen/Documents/papers_reviews/papers/ants_for_doug/17nov2019_1/Formicidae/alignments/Formicidae/"$f"_Renamed_wouts_Parsed.fasta
+done
+
